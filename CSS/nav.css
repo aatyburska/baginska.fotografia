@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.nav {
+    border: solid 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__list {
+    list-style: none;
+   
+}
+
+.nav__ListItem {
+    font-size: 16px;
+    color: #304945;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.nav__ListItem:visited {
+    color:#263a36;
+}
+
+.nav__ListItem:hover {
+    color:#3a5854;
+    border-bottom: 1px solid #3a5854;
+    outline: none;
+}
+
+.nav__ListItem:active {
+    color:#263a36;
+    border-bottom: 1px solid #263a36;
+
+}

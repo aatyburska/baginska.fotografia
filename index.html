@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bagińska Fotografia</title>
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/nav.css" rel="stylesheet">
+    <link href="CSS/header.css" rel="stylesheet">
+    <link href="CSS/main.css" rel="stylesheet">
+    <link href="CSS/form.css" rel="stylesheet">
+    <link href="CSS/footer.css" rel="stylesheet">
+    <script defer src="JS/scripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <header class="header">
+        <img width="100" class="header__Baner" src="images/logo beż RGB.png" alt="baner">
+    </header>
+    <nav class="nav">
+        
+            <a href="#O-mnie" class="nav__ListItem">O mnie</a>
+            <a href="#Foto" class="nav__ListItem">Moje zdjęcia</a>
+            <a href="#Form" class="nav__ListItem">Kontakt</a>
+
+    </nav>
+    <div class="description">
+        <img width="300" class="description__photo" src="images/Domi.jpg" alt="Domi">
+        <h1 id="O-mnie" class="description__header">Kilka słów o mnie</h1>
+        <p class="description__content">mam na imię Dominika i jestem fotografką z Gdańska. Przede wszystkim zajmuję się
+            <strong>fotografią
+                kobiecą.</strong> Uwielbiam uwieczniać piękno kobiet i patrzeć jak kwitną podczas sesji! Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit. Nunc vitae sapien ac ex venenatis ullamcorper id id ipsum.
+            Vivamus augue mi, egestas eu condimentum vel, egestas vitae ex. Fusce sagittis vulputate sapien, consequat
+            sollicitudin nunc egestas vel. Curabitur et purus ac felis sollicitudin tincidunt et vel neque. Ut congue
+            tortor erat, vel condimentum lacus sagittis in. Donec bibendum lacinia accumsan. Aliquam vulputate bibendum
+            massa, et auctor sapien imperdiet vel. 
+        </p>
+    </div>
+
+    <div id="Form" class="conteiner">
+        <form class="form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Zapraszam do kontaktu</legend>
+                <p>
+                    <label>
+                        <span class="form__labelText">Imię*:</span> 
+                        <input class="form__field" name="ferstName" required>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText">Adres e-mail do kontaktu*:</span>
+                         <input class="form__field" type="email" name="email" required>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText">Telefon do kontaktu:</span>
+                         <input class="form__field" type="tel" name="tel">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText">Proponowany termin</span>
+                         <input class="form__field" type="date">
+                        <p>Wskazana data jest propozycję, ostateczna data sesji ustalana jest indywidualnie. </p>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText">
+                            Jaki Pakiet Cię interesuje?
+                        </span>
+                        <select class="form__field" name="package">
+                            <option>Pakiet mini</option>
+                            <option>Pakiet midi</option>
+                            <option>Pakiet maxi</option>
+                            <option>Wieczór panieński</option>
+                            <option>Voucher podarunkowy</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                       <span class="form__labelText">Wiadomość:</span>
+                       <textarea class="form__field form__field-special" name="msg"></textarea>
+                    </label>
+                </p>
+                    <button class="form__button">Wyślij</button>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+
+    <footer class="footer">
+        © 2023 Copywrite by Adrianna Tyburska
+    </footer>
+</body>

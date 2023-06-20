@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    margin: auto;
+    max-width: 1000px;
+    background-color: #E7DCD7;
+    color: #304945;
+    font-family: sans-serif;
+    Font-size: 16px;
+    
+}
+
+.bodyDark {
+    background-color: #304945;
+    color: #E7DCD7;
+}
+
+
+
+
+
