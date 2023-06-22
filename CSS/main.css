@@ -8,7 +8,7 @@ html {
 
 .description {
     display:flex;
-    flex-flow:  column wrap;
+    flex-flow: column wrap;
     height: 300px;
     width: 1000px;
     column-gap: 10px;
@@ -16,8 +16,6 @@ html {
 
 .description__header {
     width: 690px;
-
-    
 }
 
 .description__content {
@@ -32,3 +30,36 @@ html {
     flex-basis: 100%;
 } 
 
+.priceList {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1000px;
+    gap: 10px;
+    
+}
+
+.priceList__item {
+    max-width: 480px;
+    height: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 100%
+    
+}
+
+.priceList__header {
+    padding-left: 10px;
+    width: 280px;    
+}
+
+.priceList__picture {
+    border-radius: 10px;
+    order: -1;
+    
+}
+
+.priceList__description {
+    padding-left: 10px;
+    text-align: justify;
+    width: 280px;
+}
