@@ -5,3 +5,9 @@ html {
 *, ::after, ::before {
     box-sizing: inherit;
 }
+
+.header__logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
